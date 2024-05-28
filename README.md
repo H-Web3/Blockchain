@@ -34,5 +34,21 @@ unmodified: unchanged
  <br>
  git add <-file name->
  <br>
-git add . command to add all the modified files.
+git add . command to add all the modified files. Also add them individually by writing file's name.
+<br>
+after adding, git status command will show us that files are added now changes to be committed
+<br>
+to commit we run a command "git commit"
+<br>
+Now if you go and see on github.com there is no files or modifications you do. Why?
+Because all the things we do, we do in oue local sytem.
+<br>
+to add them into the github we have to push ut from local to remote with the "git push origin main" 
+command. Push means "Upload localrepo content to remote repo".
+<br>
+Now the meaning of "git push origin main" ."git push" means that we want to push the git onto the github
+<br>
+"origin" means that default repo that we clone from the github. We want to push that git to the origin 
+which we clone having a branch "main".
+
 
